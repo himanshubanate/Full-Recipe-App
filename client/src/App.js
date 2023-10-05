@@ -1,7 +1,13 @@
+import Delivery from "./components/Delivery";
+import Featured from "./components/Featured";
+import TopNav from "./components/TopNav";
+
 function App() {
   return (
     <div className="App">
-      <>himanshu banate</>
+      <TopNav />
+      <Featured />
+      <Delivery />
     </div>
   );
 }
